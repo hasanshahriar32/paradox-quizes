@@ -20,6 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "cpy ./_redirects ./build",
+    "predeploy": "npm i && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
